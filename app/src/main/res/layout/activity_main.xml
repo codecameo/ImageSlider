@@ -16,12 +16,4 @@
         android:id="@+id/vp_image_slider"
         android:layout_width="match_parent"
         android:layout_height="128dp" />-->
-
-    <fragment
-        android:id="@+id/place_autocomplete_fragment"
-        android:name="cameo.code.placeautocomplete.PlaceAutoCompleteFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout="@layout/fragment_search_toolbar" />
-
 </LinearLayout>
