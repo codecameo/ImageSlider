@@ -82,6 +82,28 @@ dependencies {
 }
 ```
 
+# Maven
+
+Step 1.  Add the JitPack repository to your build file
+
+```groovy
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
+
+Step 2. Add the dependency
+```groovy
+<dependency>
+    	<groupId>com.github.codecameo</groupId>
+	<artifactId>ImageSlider</artifactId>
+    	<version>1.0</version>
+</dependency>
+```
+
 # License
 MIT License
 
